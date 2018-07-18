@@ -10,6 +10,8 @@ module.exports = {
     watch: true,
     module: {
         rules: [
+
+
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
@@ -23,6 +25,17 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8192
+                        }
+                    }
+                ]
             },
             {
                 test: /\.scss$/,
