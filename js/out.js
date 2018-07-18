@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./images/backgroundTop.png":
+/*!**********************************!*\
+  !*** ./images/backgroundTop.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"64e1ff45bf9789ba2a9eef452261202d.png\";\n\n//# sourceURL=webpack:///./images/backgroundTop.png?");
+
+/***/ }),
+
 /***/ "./images/logo.png":
 /*!*************************!*\
   !*** ./images/logo.png ***!
@@ -97,58 +108,69 @@ eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKYAAAAhC
 
 /***/ }),
 
-/***/ "./js/41b43d3f8362ad3d5ef1cafeabb3e79a.png":
-/*!*************************************************!*\
-  !*** ./js/41b43d3f8362ad3d5ef1cafeabb3e79a.png ***!
-  \*************************************************/
+/***/ "./images/ownBoatBackground.png":
+/*!**************************************!*\
+  !*** ./images/ownBoatBackground.png ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"41b43d3f8362ad3d5ef1cafeabb3e79a.png\";\n\n//# sourceURL=webpack:///./js/41b43d3f8362ad3d5ef1cafeabb3e79a.png?");
+eval("module.exports = __webpack_require__.p + \"f727ad7622e5c8ef798f56693841d627.png\";\n\n//# sourceURL=webpack:///./images/ownBoatBackground.png?");
 
 /***/ }),
 
-/***/ "./js/51a9c3297eac83513cd7b866bf53fc0d.png":
-/*!*************************************************!*\
-  !*** ./js/51a9c3297eac83513cd7b866bf53fc0d.png ***!
-  \*************************************************/
+/***/ "./images/place1.png":
+/*!***************************!*\
+  !*** ./images/place1.png ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"51a9c3297eac83513cd7b866bf53fc0d.png\";\n\n//# sourceURL=webpack:///./js/51a9c3297eac83513cd7b866bf53fc0d.png?");
+eval("module.exports = __webpack_require__.p + \"737281b5f377c5bed4f86a9ff714cae6.png\";\n\n//# sourceURL=webpack:///./images/place1.png?");
 
 /***/ }),
 
-/***/ "./js/64e1ff45bf9789ba2a9eef452261202d.png":
-/*!*************************************************!*\
-  !*** ./js/64e1ff45bf9789ba2a9eef452261202d.png ***!
-  \*************************************************/
+/***/ "./images/place2.png":
+/*!***************************!*\
+  !*** ./images/place2.png ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"64e1ff45bf9789ba2a9eef452261202d.png\";\n\n//# sourceURL=webpack:///./js/64e1ff45bf9789ba2a9eef452261202d.png?");
+eval("module.exports = __webpack_require__.p + \"9084c3e5a197c603a9e9af0a29660c11.png\";\n\n//# sourceURL=webpack:///./images/place2.png?");
 
 /***/ }),
 
-/***/ "./js/737281b5f377c5bed4f86a9ff714cae6.png":
-/*!*************************************************!*\
-  !*** ./js/737281b5f377c5bed4f86a9ff714cae6.png ***!
-  \*************************************************/
+/***/ "./images/place3.png":
+/*!***************************!*\
+  !*** ./images/place3.png ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"737281b5f377c5bed4f86a9ff714cae6.png\";\n\n//# sourceURL=webpack:///./js/737281b5f377c5bed4f86a9ff714cae6.png?");
+eval("module.exports = __webpack_require__.p + \"41b43d3f8362ad3d5ef1cafeabb3e79a.png\";\n\n//# sourceURL=webpack:///./images/place3.png?");
 
 /***/ }),
 
-/***/ "./js/9084c3e5a197c603a9e9af0a29660c11.png":
-/*!*************************************************!*\
-  !*** ./js/9084c3e5a197c603a9e9af0a29660c11.png ***!
-  \*************************************************/
+/***/ "./images/place4.png":
+/*!***************************!*\
+  !*** ./images/place4.png ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"9084c3e5a197c603a9e9af0a29660c11.png\";\n\n//# sourceURL=webpack:///./js/9084c3e5a197c603a9e9af0a29660c11.png?");
+eval("module.exports = __webpack_require__.p + \"c3059b199a835bb8e6a3439886eae51f.png\";\n\n//# sourceURL=webpack:///./images/place4.png?");
+
+/***/ }),
+
+/***/ "./images/place5.png":
+/*!***************************!*\
+  !*** ./images/place5.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"51a9c3297eac83513cd7b866bf53fc0d.png\";\n\n//# sourceURL=webpack:///./images/place5.png?");
 
 /***/ }),
 
@@ -164,17 +186,6 @@ eval("\n\n__webpack_require__(/*! ../scss/main.scss */ \"./scss/main.scss\");\n\
 
 /***/ }),
 
-/***/ "./js/c3059b199a835bb8e6a3439886eae51f.png":
-/*!*************************************************!*\
-  !*** ./js/c3059b199a835bb8e6a3439886eae51f.png ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"c3059b199a835bb8e6a3439886eae51f.png\";\n\n//# sourceURL=webpack:///./js/c3059b199a835bb8e6a3439886eae51f.png?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./scss/main.scss":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./scss/main.scss ***!
@@ -182,7 +193,7 @@ eval("module.exports = __webpack_require__.p + \"c3059b199a835bb8e6a3439886eae51
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*----------------reset-----------------*/\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline; }\\n\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block; }\\n\\nbody {\\n  line-height: 1; }\\n\\nol, ul {\\n  list-style: none; }\\n\\nblockquote, q {\\n  quotes: none; }\\n\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: '';\\n  content: none; }\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0; }\\n\\n* {\\n  box-sizing: border-box;\\n  font-family: \\\"Raleway\\\", Arial, sans-serif; }\\n\\n.content {\\n  width: 1200px;\\n  border: 1px solid blue;\\n  height: 100%;\\n  margin: 0 auto;\\n  text-align: center; }\\n\\nbody .container {\\n  width: 100%;\\n  margin: 0 auto; }\\n  body .container .top {\\n    height: 850px;\\n    background: no-repeat center url(\" + escape(__webpack_require__(/*! ../js/64e1ff45bf9789ba2a9eef452261202d.png */ \"./js/64e1ff45bf9789ba2a9eef452261202d.png\")) + \"); }\\n    body .container .top .header {\\n      display: flex;\\n      justify-content: space-between;\\n      flex-direction: row;\\n      align-items: center;\\n      width: 1497px;\\n      position: absolute;\\n      left: 0;\\n      right: 0;\\n      margin-left: auto;\\n      margin-right: auto;\\n      top: 36px;\\n      height: 42px; }\\n      body .container .top .header .logo {\\n        width: 166px;\\n        height: 33px;\\n        background: no-repeat url(\" + escape(__webpack_require__(/*! ../images/logo.png */ \"./images/logo.png\")) + \"); }\\n      body .container .top .header .menu {\\n        display: flex;\\n        align-items: center;\\n        list-style-type: none;\\n        font-size: 16px;\\n        color: white;\\n        font-weight: bold;\\n        font-family: \\\"Raleway\\\"; }\\n        body .container .top .header .menu li {\\n          padding-left: 50px; }\\n        body .container .top .header .menu .signUp {\\n          border: 1px solid white;\\n          border-radius: 5px;\\n          width: 148px;\\n          height: 44px;\\n          line-height: 42px;\\n          text-align: center; }\\n    body .container .top .topContent {\\n      display: flex;\\n      align-items: center;\\n      justify-content: center;\\n      text-align: center;\\n      color: white; }\\n      body .container .top .topContent div h1 {\\n        font-size: 56.742px;\\n        font-family: \\\"Raleway\\\";\\n        font-weight: bold;\\n        margin-bottom: 30px; }\\n      body .container .top .topContent div h2 {\\n        font-size: 30px;\\n        font-family: \\\"Raleway\\\";\\n        font-weight: lighter;\\n        margin-bottom: 90px; }\\n      body .container .top .topContent div form {\\n        display: flex;\\n        flex-direction: row; }\\n        body .container .top .topContent div form input {\\n          border-radius: 5px 0 0 5px;\\n          width: 569px;\\n          height: 60px;\\n          border: none;\\n          padding-left: 30px;\\n          flex-grow: 2; }\\n        body .container .top .topContent div form button {\\n          border-radius: 0 5px 5px 0;\\n          background-color: #e7434e;\\n          width: 200px;\\n          height: 60px;\\n          border: none;\\n          font-weight: bold;\\n          color: white; }\\n          body .container .top .topContent div form button img {\\n            margin-right: 13px; }\\n  body .container .topDestinations {\\n    height: 1321px; }\\n    body .container .topDestinations .topDestinationsContent {\\n      display: flex;\\n      flex-direction: column;\\n      align-items: center; }\\n      body .container .topDestinations .topDestinationsContent h1 {\\n        margin-top: 180px;\\n        margin-bottom: 34px;\\n        font-size: 30px;\\n        font-family: \\\"Raleway\\\";\\n        color: #343435; }\\n      body .container .topDestinations .topDestinationsContent h2 {\\n        font-size: 16px;\\n        font-family: \\\"Raleway\\\";\\n        color: #717171;\\n        margin-bottom: 87px; }\\n      body .container .topDestinations .topDestinationsContent .places {\\n        display: flex;\\n        flex-wrap: wrap;\\n        margin: 0 15px 0 15px; }\\n        body .container .topDestinations .topDestinationsContent .places .place1 {\\n          background: center url(\" + escape(__webpack_require__(/*! ../js/737281b5f377c5bed4f86a9ff714cae6.png */ \"./js/737281b5f377c5bed4f86a9ff714cae6.png\")) + \");\\n          width: 768px;\\n          height: 361px;\\n          margin: 0 30px 30px 0; }\\n        body .container .topDestinations .topDestinationsContent .places .place2 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../js/9084c3e5a197c603a9e9af0a29660c11.png */ \"./js/9084c3e5a197c603a9e9af0a29660c11.png\")) + \");\\n          width: 369px;\\n          height: 361px; }\\n        body .container .topDestinations .topDestinationsContent .places .place3 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../js/41b43d3f8362ad3d5ef1cafeabb3e79a.png */ \"./js/41b43d3f8362ad3d5ef1cafeabb3e79a.png\")) + \");\\n          width: 369px;\\n          height: 361px;\\n          margin-right: 30px; }\\n        body .container .topDestinations .topDestinationsContent .places .place4 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../js/c3059b199a835bb8e6a3439886eae51f.png */ \"./js/c3059b199a835bb8e6a3439886eae51f.png\")) + \");\\n          width: 369px;\\n          height: 361px;\\n          margin-right: 30px; }\\n        body .container .topDestinations .topDestinationsContent .places .place5 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../js/51a9c3297eac83513cd7b866bf53fc0d.png */ \"./js/51a9c3297eac83513cd7b866bf53fc0d.png\")) + \");\\n          width: 369px;\\n          height: 361px; }\\n      body .container .topDestinations .topDestinationsContent .exploreMoreButton {\\n        font-size: 14px;\\n        font-family: \\\"Raleway\\\";\\n        color: #343434;\\n        font-weight: bold;\\n        border: 1px solid #a7a7a7;\\n        border-radius: 5px;\\n        background-color: rgba(113, 113, 113, 0);\\n        width: 312px;\\n        height: 62px;\\n        line-height: 62px;\\n        margin-top: 100px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"/*----------------reset-----------------*/\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline; }\\n\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block; }\\n\\nbody {\\n  line-height: 1; }\\n\\nol, ul {\\n  list-style: none; }\\n\\nblockquote, q {\\n  quotes: none; }\\n\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: '';\\n  content: none; }\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0; }\\n\\n* {\\n  box-sizing: border-box;\\n  font-family: \\\"Raleway\\\", Arial, sans-serif; }\\n\\n.content {\\n  width: 1200px;\\n  height: 100%;\\n  margin: 0 auto;\\n  text-align: center; }\\n\\nbody .container {\\n  width: 100%;\\n  margin: 0 auto; }\\n  body .container .top {\\n    height: 850px;\\n    background: no-repeat center url(\" + escape(__webpack_require__(/*! ../images/backgroundTop.png */ \"./images/backgroundTop.png\")) + \"); }\\n    body .container .top .header {\\n      display: flex;\\n      justify-content: space-between;\\n      flex-direction: row;\\n      align-items: center;\\n      width: 1497px;\\n      position: absolute;\\n      left: 0;\\n      right: 0;\\n      margin-left: auto;\\n      margin-right: auto;\\n      top: 36px;\\n      height: 42px; }\\n      body .container .top .header .logo {\\n        width: 166px;\\n        height: 33px;\\n        background: no-repeat url(\" + escape(__webpack_require__(/*! ../images/logo.png */ \"./images/logo.png\")) + \"); }\\n      body .container .top .header .menu {\\n        display: flex;\\n        align-items: center;\\n        list-style-type: none;\\n        font-size: 16px;\\n        color: white;\\n        font-weight: bold;\\n        font-family: \\\"Raleway\\\"; }\\n        body .container .top .header .menu li {\\n          padding-left: 50px; }\\n        body .container .top .header .menu .signUp {\\n          border: 1px solid white;\\n          border-radius: 5px;\\n          width: 148px;\\n          height: 44px;\\n          line-height: 42px;\\n          text-align: center; }\\n    body .container .top .topContent {\\n      display: flex;\\n      align-items: center;\\n      justify-content: center;\\n      text-align: center;\\n      color: white; }\\n      body .container .top .topContent div h1 {\\n        font-size: 56.742px;\\n        font-family: \\\"Raleway\\\";\\n        font-weight: bold;\\n        margin-bottom: 30px;\\n        color: #f9fafe;\\n        -moz-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        -webkit-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        -ms-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        letter-spacing: 4px; }\\n      body .container .top .topContent div h2 {\\n        font-size: 30px;\\n        font-family: \\\"Raleway\\\";\\n        font-weight: lighter;\\n        margin-bottom: 90px;\\n        letter-spacing: 1px; }\\n      body .container .top .topContent div form {\\n        display: flex;\\n        flex-direction: row; }\\n        body .container .top .topContent div form input {\\n          border-radius: 5px 0 0 5px;\\n          width: 569px;\\n          height: 60px;\\n          border: none;\\n          padding-left: 30px; }\\n        body .container .top .topContent div form button {\\n          border-radius: 0 5px 5px 0;\\n          background-color: #e7434e;\\n          width: 200px;\\n          height: 60px;\\n          border: none;\\n          font-weight: bold;\\n          color: white; }\\n          body .container .top .topContent div form button img {\\n            margin-right: 13px; }\\n  body .container .topDestinations {\\n    height: 1321px; }\\n    body .container .topDestinations .topDestinationsContent {\\n      display: flex;\\n      flex-direction: column;\\n      align-items: center; }\\n      body .container .topDestinations .topDestinationsContent h1 {\\n        margin-top: 180px;\\n        margin-bottom: 34px;\\n        font-size: 30px;\\n        font-family: \\\"Raleway\\\";\\n        color: #343435; }\\n      body .container .topDestinations .topDestinationsContent h2 {\\n        font-size: 16px;\\n        font-family: \\\"Raleway\\\";\\n        color: #717171;\\n        margin-bottom: 87px; }\\n      body .container .topDestinations .topDestinationsContent .places {\\n        display: flex;\\n        flex-wrap: wrap;\\n        margin: 0 15px 0 15px; }\\n        body .container .topDestinations .topDestinationsContent .places .place1 {\\n          background: center url(\" + escape(__webpack_require__(/*! ../images/place1.png */ \"./images/place1.png\")) + \");\\n          width: 768px;\\n          height: 361px;\\n          margin: 0 30px 30px 0; }\\n        body .container .topDestinations .topDestinationsContent .places .place2 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../images/place2.png */ \"./images/place2.png\")) + \");\\n          width: 369px;\\n          height: 361px; }\\n        body .container .topDestinations .topDestinationsContent .places .place3 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../images/place3.png */ \"./images/place3.png\")) + \");\\n          width: 369px;\\n          height: 361px;\\n          margin-right: 30px; }\\n        body .container .topDestinations .topDestinationsContent .places .place4 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../images/place4.png */ \"./images/place4.png\")) + \");\\n          width: 369px;\\n          height: 361px;\\n          margin-right: 30px; }\\n        body .container .topDestinations .topDestinationsContent .places .place5 {\\n          background-image: url(\" + escape(__webpack_require__(/*! ../images/place5.png */ \"./images/place5.png\")) + \");\\n          width: 369px;\\n          height: 361px; }\\n      body .container .topDestinations .topDestinationsContent .exploreMoreButton {\\n        font-size: 14px;\\n        font-family: \\\"Raleway\\\";\\n        color: #343434;\\n        font-weight: bold;\\n        border: 1px solid #a7a7a7;\\n        border-radius: 5px;\\n        background-color: rgba(113, 113, 113, 0);\\n        width: 312px;\\n        height: 62px;\\n        line-height: 62px;\\n        margin-top: 100px; }\\n  body .container .ownBoat {\\n    height: 600px;\\n    background: no-repeat center url(\" + escape(__webpack_require__(/*! ../images/ownBoatBackground.png */ \"./images/ownBoatBackground.png\")) + \"); }\\n    body .container .ownBoat .ownBoatContent {\\n      display: flex;\\n      flex-direction: column;\\n      align-items: center; }\\n      body .container .ownBoat .ownBoatContent h1 {\\n        margin-top: 188px;\\n        margin-bottom: 30px;\\n        font-size: 56.742px;\\n        font-family: \\\"Raleway\\\";\\n        color: #f9fafe;\\n        font-weight: bold;\\n        -moz-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        -webkit-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        -ms-transform: matrix(1.26889, 0, 0, 1.26889, 0, 0);\\n        letter-spacing: 4px; }\\n      body .container .ownBoat .ownBoatContent h2 {\\n        margin-bottom: 90px;\\n        font-size: 30px;\\n        font-family: \\\"Raleway\\\";\\n        color: #f9fafe;\\n        letter-spacing: 1px; }\\n      body .container .ownBoat .ownBoatContent .makeMoneyButton {\\n        font-size: 14px;\\n        font-family: \\\"Raleway\\\";\\n        color: white;\\n        font-weight: bold;\\n        border-radius: 5px;\\n        background-color: #e7434e;\\n        width: 320px;\\n        height: 60px;\\n        letter-spacing: 1px;\\n        line-height: 60px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
