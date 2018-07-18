@@ -49,6 +49,30 @@ table {
   border-spacing: 0;
 }
 
+@media (max-width: 1500px) and (min-width: 1210px){
+  .header {
+    width: 1200px!important;
+  }
+}
+
+@media (max-width: 1210px) and (min-width: 800px){
+  .header {
+    width: 800px!important;
+  }
+  .content {
+    width: 800px!important;
+  }
+  .place1 {
+    margin: 0 0 30px 0!important;
+  }
+  .place2 {
+    margin: 0 30px 30px 0!important;
+  }
+  .place3 {
+    margin: 0!important;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Raleway", Arial, sans-serif;
@@ -72,12 +96,14 @@ body {
     .top {
       height: 850px;
       background: no-repeat center url("../images/backgroundTop.png");
+      //min-width: 1200px;
       .header {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        width: 1497px;
+        max-width: 1497px;
+        padding: 0 15px 0 15px;
         position: absolute;
         left: 0;
         right: 0;
@@ -174,7 +200,7 @@ body {
 
     }
     .topDestinations {
-      height: 1321px;
+      //height: 1321px;
       .topDestinationsContent {
         display: flex;
         flex-direction: column;
@@ -195,6 +221,7 @@ body {
         .places {
           display: flex;
           flex-wrap: wrap;
+          justify-content: center;
           margin: 0 15px 0 15px;
           .place1 {
             background: center url("../images/place1.png");
@@ -206,7 +233,6 @@ body {
             background-image: url("../images/place2.png");
             width: 369px;
             height: 361px;
-            //margin-right: 30px;
           }
           .place3 {
             background-image: url("../images/place3.png");
@@ -238,6 +264,7 @@ body {
           height: 62px;
           line-height: 62px;
           margin-top: 100px;
+          margin-bottom: 60px;
         }
       }
     }
@@ -245,6 +272,7 @@ body {
     .ownBoat {
       height: 600px;
       background: no-repeat center url("../images/ownBoatBackground.png");
+      //min-width: 1200px;
       .ownBoatContent {
         display: flex;
         flex-direction: column;
