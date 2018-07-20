@@ -55,12 +55,31 @@ table {
   }
 }
 
+@media (max-width: 1210px) and (min-width: 300px) {
+  .boat1 {
+    margin: 0 0 24px 0 !important;
+    width: 100%;
+  }
+  .boat2 {
+    margin: 0 0 24px 0 !important;
+    width: 100%;
+  }
+  .boat3 {
+    margin: 0 0 24px 0 !important;
+    width: 100%;
+  }
+  .boat4 {
+    margin: 0 0 24px 0 !important;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1210px) and (min-width: 800px) {
   .header {
-    width: 800px !important;
+    width: 790px !important;
   }
   .content {
-    width: 800px !important;
+    width: 790px !important;
   }
   .place1 {
     margin: 0 0 30px 0 !important;
@@ -70,6 +89,31 @@ table {
   }
   .place3 {
     margin: 0 !important;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 300px) {
+  .header {
+    width: 100% !important;
+  }
+  .content {
+    width: 100% !important;
+  }
+  .place1 {
+    margin: 0 0 30px 0 !important;
+    width: 100%;
+  }
+  .place2 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place3 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place4 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place5 {
+    margin: 0 0 30px 0 !important;
   }
 }
 
@@ -147,13 +191,13 @@ body {
         color: white;
         div {
           h1 {
+            white-space: pre-wrap;
             font-size: 56.742px;
             font-family: "Raleway";
             font-weight: bold;
             margin-bottom: 30px;
             color: rgb(249, 250, 254);
             -moz-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
-            -webkit-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
             -ms-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
             letter-spacing: 4px;
           }
@@ -170,7 +214,8 @@ body {
             input {
               border-radius: 5px 0 0 5px;
               //background-color: rgb(255, 255, 255);
-              width: 569px;
+              //width: 569px;
+              width: 100%;
               height: 60px;
               border: none;
               padding-left: 30px;
@@ -206,7 +251,7 @@ body {
         flex-direction: column;
         align-items: center;
         h1 {
-          margin-top: 180px;
+          margin-top: 100px;
           margin-bottom: 34px;
           font-size: 30px;
           font-family: "Raleway";
@@ -223,6 +268,7 @@ body {
           flex-wrap: wrap;
           justify-content: center;
           margin: 0 15px 0 15px;
+          width: 100%;
           .place1 {
             background: center url("../images/place1.png");
             width: 768px;
@@ -231,27 +277,27 @@ body {
             border-radius: 5px;
           }
           .place2 {
-            background-image: url("../images/place2.png");
+            background: center url("../images/place2.png");
             width: 369px;
             height: 361px;
             border-radius: 5px;
           }
           .place3 {
-            background-image: url("../images/place3.png");
+            background: center url("../images/place3.png");
             width: 369px;
             height: 361px;
             margin-right: 30px;
             border-radius: 5px;
           }
           .place4 {
-            background-image: url("../images/place4.png");
+            background: center url("../images/place4.png");
             width: 369px;
             height: 361px;
             margin-right: 30px;
             border-radius: 5px;
           }
           .place5 {
-            background-image: url("../images/place5.png");
+            background: center url("../images/place5.png");
             width: 369px;
             height: 361px;
             border-radius: 5px;
@@ -275,44 +321,48 @@ body {
     }
 
     .ownBoat {
-      //height: 600px;
+      height: 600px;
       background: no-repeat center url("../images/ownBoatBackground.png");
       //min-width: 1200px;
       .ownBoatContent {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        h1 {
-          margin-top: 188px;
-          margin-bottom: 30px;
-          font-size: 56.742px;
-          font-family: "Raleway";
-          color: rgb(249, 250, 254);
-          font-weight: bold;
-          -moz-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
-          -webkit-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
-          -ms-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
-          letter-spacing: 4px;
-        }
-        h2 {
-          margin-bottom: 89px;
-          font-size: 30px;
-          font-family: "Raleway";
-          color: rgb(249, 250, 254);
-          letter-spacing: 1px;
-        }
-        .makeMoneyButton {
-          font-size: 14px;
-          font-family: "Raleway";
-          color: rgb(255, 255, 255);
-          font-weight: bold;
-          border-radius: 5px;
-          background-color: rgb(231, 67, 78);
-          width: 320px;
-          height: 60px;
-          letter-spacing: 1px;
-          line-height: 60px;
-          margin-bottom: 159px;
+        justify-content: center;
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          p {
+            //margin-top: 188px;
+            margin-bottom: 30px;
+            font-size: 56.742px;
+            font-family: "Raleway";
+            color: rgb(249, 250, 254);
+            font-weight: bold;
+            -moz-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
+            -ms-transform: matrix(1.26889208282675, 0, 0, 1.26889208282675, 0, 0);
+            letter-spacing: 4px;
+          }
+          h2 {
+            margin-bottom: 89px;
+            font-size: 30px;
+            font-family: "Raleway";
+            color: rgb(249, 250, 254);
+            letter-spacing: 1px;
+          }
+          .makeMoneyButton {
+            font-size: 14px;
+            font-family: "Raleway";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: rgb(231, 67, 78);
+            width: 320px;
+            height: 60px;
+            letter-spacing: 1px;
+            line-height: 60px;
+            //margin-bottom: 159px;
+          }
         }
       }
     }
@@ -324,7 +374,7 @@ body {
         flex-direction: column;
         align-items: center;
         h1 {
-          margin-top: 180px;
+          margin-top: 100px;
           margin-bottom: 34px;
           font-size: 30px;
           font-family: "Raleway";
@@ -341,28 +391,29 @@ body {
           flex-wrap: wrap;
           justify-content: center;
           margin: 0 15px 0 15px;
+          width: 100%;
           .boat1 {
-            background: url("../images/boat1.png");
+            background: center url("../images/boat1.png");
             width: 573px;
             height: 339px;
             margin: 0 24px 24px 0;
             border-radius: 5px;
           }
           .boat2 {
-            background-image: url("../images/boat2.png");
+            background: center url("../images/boat2.png");
             width: 573px;
             height: 339px;
             border-radius: 5px;
           }
           .boat3 {
-            background: url("../images/boat3.png");
+            background: center url("../images/boat3.png");
             width: 573px;
             height: 339px;
             margin-right: 24px;
             border-radius: 5px;
           }
           .boat4 {
-            background-image: url("../images/boat4.png");
+            background: center url("../images/boat4.png");
             width: 573px;
             height: 339px;
             border-radius: 5px;
@@ -396,7 +447,7 @@ body {
         padding: 0 15px 74px 15px;
         div {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: space-between;
           div {
             display: flex;
@@ -431,7 +482,8 @@ body {
                   input {
                     border-radius: 5px 0 0 5px;
                     background-color: rgb(255, 255, 255);
-                    width: 270px;
+                    //width: 270px;
+                    width: 100%;
                     height: 42px;
                     border: none;
                     padding-left: 22px;
@@ -468,40 +520,8 @@ body {
                   width: 44px;
                   height: 44px;
                 }
-                //img {
-                //  object-fit: cover;
-                //}
               }
-
-              //==================================
-              .SUBSCRIBE {
-                font-size: 14px;
-                font-family: "OpenSans";
-                color: rgb(255, 255, 255);
-                text-align: center;
-              }
-              .Your_email_adress {
-                font-size: 14px;
-                font-family: "OpenSans";
-                color: rgb(113, 113, 113);
-                text-align: center;
-              }
-              .Prostokąt_zaokrąglony_1_kopia_4 {
-                background-color: rgb(231, 67, 78);
-                width: 147px;
-                height: 42px;
-              }
-              .Prostokąt_zaokrąglony_1_kopia_3 {
-                border-radius: 5px;
-                background-color: rgb(255, 255, 255);
-                width: 299px;
-                height: 42px;
-              }
-
-              //==================================
-
             }
-
           }
         }
       }
