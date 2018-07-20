@@ -275,7 +275,7 @@ body {
     }
 
     .ownBoat {
-      height: 600px;
+      //height: 600px;
       background: no-repeat center url("../images/ownBoatBackground.png");
       //min-width: 1200px;
       .ownBoatContent {
@@ -295,7 +295,7 @@ body {
           letter-spacing: 4px;
         }
         h2 {
-          margin-bottom: 90px;
+          margin-bottom: 89px;
           font-size: 30px;
           font-family: "Raleway";
           color: rgb(249, 250, 254);
@@ -312,6 +312,7 @@ body {
           height: 60px;
           letter-spacing: 1px;
           line-height: 60px;
+          margin-bottom: 159px;
         }
       }
     }
@@ -354,7 +355,7 @@ body {
             border-radius: 5px;
           }
           .boat3 {
-            background:  url("../images/boat3.png");
+            background: url("../images/boat3.png");
             width: 573px;
             height: 339px;
             margin-right: 24px;
@@ -385,7 +386,125 @@ body {
     }
 
     .footer {
+      background-color: rgb(64, 64, 64);
+      .line {
+        background: no-repeat center url("../images/footerLine.png");
+        height: 6px;
+        margin-bottom: 56px;
+      }
+      .footerContent {
+        padding: 0 15px 74px 15px;
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          div {
+            display: flex;
+            justify-content: flex-start;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: 14px;
+            font-family: "Raleway";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+          }
+          li:first-child {
+            padding-top: 30px;
+          }
+          li {
+            padding-top: 22px;
+            font-size: 14px;
+            font-family: "Raleway";
+            color: rgb(255, 255, 255);
+            font-weight: lighter;
+          }
 
+          .footerSubscribe {
+            ul {
+              li:first-child {
+                form {
+                  display: flex;
+                  flex-direction: row;
+                  input {
+                    border-radius: 5px 0 0 5px;
+                    background-color: rgb(255, 255, 255);
+                    width: 270px;
+                    height: 42px;
+                    border: none;
+                    padding-left: 22px;
+                  }
+                  button {
+                    border-radius: 0 5px 5px 0;
+                    background-color: rgb(231, 67, 78);
+                    width: 147px;
+                    height: 42px;
+                    border: none;
+                    font-weight: bold;
+                    color: white;
+                  }
+                }
+              }
+              li:last-child {
+                padding-top: 36px;
+                display: flex;
+                div:first-child {
+                  background: center no-repeat url("../images/facebook.png");
+                  background-color: rgb(113, 113, 113);
+                }
+                div:nth-child(2) {
+                  background: center no-repeat url("../images/twitter.png");
+                  background-color: rgb(113, 113, 113);
+                }
+                div:last-child {
+                  background: center no-repeat url("../images/google-plus.png");
+                  background-color: rgb(113, 113, 113);
+                }
+                div {
+                  margin-right: 20px;
+                  border-radius: 50%;
+                  width: 44px;
+                  height: 44px;
+                }
+                //img {
+                //  object-fit: cover;
+                //}
+              }
+
+              //==================================
+              .SUBSCRIBE {
+                font-size: 14px;
+                font-family: "OpenSans";
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              .Your_email_adress {
+                font-size: 14px;
+                font-family: "OpenSans";
+                color: rgb(113, 113, 113);
+                text-align: center;
+              }
+              .Prostokąt_zaokrąglony_1_kopia_4 {
+                background-color: rgb(231, 67, 78);
+                width: 147px;
+                height: 42px;
+              }
+              .Prostokąt_zaokrąglony_1_kopia_3 {
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                width: 299px;
+                height: 42px;
+              }
+
+              //==================================
+
+            }
+
+          }
+        }
+      }
     }
 
   }
