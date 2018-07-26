@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>NAVA</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/out.js"></script>
 </head>
 <body>
 <div class="container">
     <section class="top">
-        <section class="header">
-            <div class="logo"></div>
-            <ul class="menu">
-                <li>TOP DESTINATIONS</li>
-                <li>ADD YOUR BOAT</li>
-                <li>
-                    <div class="signUp">SIGN UP</div>
-                </li>
-            </ul>
+            <section class="header">
+                <div class="logo"></div>
+                <ul class="menu">
+                    <li>TOP DESTINATIONS</li>
+                    <li>ADD YOUR BOAT</li>
+                    <li>
+                        <div class="signUp">SIGN UP</div>
+                    </li>
+                </ul>
 
-        </section>
+                <div class="hamburger"></div>
+                <ul class="mobileMenu">
+                    <li>TOP DESTINATIONS</li>
+                    <li>ADD YOUR BOAT</li>
+                    <li>
+                        <div class="signUp">SIGN UP</div>
+                    </li>
+                </ul>
+            </section>
         <div class="topContent content">
             <div>
                 <h1>RESERVE A BOAT NOW!</h1>
@@ -38,20 +47,87 @@
     </section>
 
     <section class="numbers">
-
+        <div class="numbersContent content">
+            <div>
+                <div class="info1 info">
+                    <p>2,300</p>
+                    <p>Destinations</p>
+                </div>
+                <div class="vLine1 vLine"></div>
+                <div class="info2 info">
+                    <p>1,000</p>
+                    <p>Cities</p>
+                </div>
+                <div class="vLine2 vLine"></div>
+                <div class="info3 info">
+                    <p>35,000</p>
+                    <p>Boats</p>
+                </div>
+                <div class="vLine3 vLine"></div>
+                <div class="info4 info">
+                    <p>50,000</p>
+                    <p>Sailors</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="topDestinations">
         <div class="topDestinationsContent content">
-            <h1>EXPLORE OUR TOP DESTINATIONS</h1>
+            <p>EXPLORE OUR TOP DESTINATIONS</p>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et</h2>
             <div class="places">
-                <div class="place1"></div>
-                <div class="place2"></div>
-                <div class="place3"></div>
-                <div class="place4"></div>
-                <div class="place5"></div>
+                <div class="place1 place">
+                    <div>
+                        <img src="images/sailboat.png" alt="boat">
+                        730
+                    </div>
+                    <div>
+                        <p>Figueira da Foz</p>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+                <div class="place2 place">
+                    <div>
+                        <img src="images/sailboat.png" alt="boat">
+                        621
+                    </div>
+                    <div>
+                        <p>Ibiza</p>
+                        <p>Spain</p>
+                    </div>
+                </div>
+                <div class="place3 place">
+                    <div>
+                        <img src="images/sailboat.png" alt="boat">
+                        543
+                    </div>
+                    <div>
+                        <p>Palma de Mallorca</p>
+                        <p>Spain</p>
+                    </div>
+                </div>
+                <div class="place4 place">
+                    <div>
+                        <img src="images/sailboat.png" alt="boat">
+                        495
+                    </div>
+                    <div>
+                        <p>Portofino</p>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                <div class="place5 place">
+                    <div>
+                        <img src="images/sailboat.png" alt="boat">
+                        402
+                    </div>
+                    <div>
+                        <p>Port Hercules</p>
+                        <p>Monaco</p>
+                    </div>
+                </div>
             </div>
             <div class="exploreMoreButton">EXPLORE MORE DESTINATIONS</div>
 
@@ -73,10 +149,54 @@
             <h1>FEATURED BOATS</h1>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod</h2>
             <div class="boats">
-                <div class="boat1"></div>
-                <div class="boat2"></div>
-                <div class="boat3"></div>
-                <div class="boat4"></div>
+                <div class="boat1 boat">
+                    <div>€580 / day</div>
+                    <div>
+                        <p>Delphia 47</p>
+                        <div>
+                            <img src="images/mapMarker.png" alt="">
+                            <span>Gdańsk, Poland&nbsp;&nbsp;&nbsp;</span>
+                            <img src="images/accountMultiple.png" alt="">
+                            <span>8 Berths</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="boat2 boat">
+                    <div>€950 / day</div>
+                    <div>
+                        <p>Sense 55</p>
+                        <div>
+                            <img src="images/mapMarker.png" alt="">
+                            <span>Portofino, Italy&nbsp;&nbsp;&nbsp;</span>
+                            <img src="images/accountMultiple.png" alt="">
+                            <span>12 Berths</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="boat3 boat">
+                    <div>€820 / day</div>
+                    <div>
+                        <p>Crusier 51</p>
+                        <div>
+                            <img src="images/mapMarker.png" alt="">
+                            <span>Palma de Mallorca, Spain&nbsp;&nbsp;&nbsp;</span>
+                            <img src="images/accountMultiple.png" alt="">
+                            <span>10 Berths</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="boat4 boat">
+                    <div>€400 / day</div>
+                    <div>
+                        <p>Crusier 41S</p>
+                        <div>
+                            <img src="images/mapMarker.png" alt="">
+                            <span>Lisbon, Portugal&nbsp;&nbsp;&nbsp;</span>
+                            <img src="images/accountMultiple.png" alt="">
+                            <span>8 Berths</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="loadMoreButton">LOAD MORE BOATS</div>
 

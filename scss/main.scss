@@ -1,121 +1,5 @@
-/*----------------reset-----------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-@media (max-width: 1500px) and (min-width: 1210px) {
-  .header {
-    width: 1200px !important;
-  }
-}
-
-@media (max-width: 1210px) and (min-width: 300px) {
-  .boat1 {
-    margin: 0 0 24px 0 !important;
-    width: 100%;
-  }
-  .boat2 {
-    margin: 0 0 24px 0 !important;
-    width: 100%;
-  }
-  .boat3 {
-    margin: 0 0 24px 0 !important;
-    width: 100%;
-  }
-  .boat4 {
-    margin: 0 0 24px 0 !important;
-    width: 100%;
-  }
-}
-
-@media (max-width: 1210px) and (min-width: 800px) {
-  .header {
-    width: 790px !important;
-  }
-  .content {
-    width: 790px !important;
-  }
-  .place1 {
-    margin: 0 0 30px 0 !important;
-  }
-  .place2 {
-    margin: 0 30px 30px 0 !important;
-  }
-  .place3 {
-    margin: 0 !important;
-  }
-}
-
-@media (max-width: 800px) and (min-width: 300px) {
-  .header {
-    width: 100% !important;
-  }
-  .content {
-    width: 100% !important;
-  }
-  .place1 {
-    margin: 0 0 30px 0 !important;
-    width: 100%;
-  }
-  .place2 {
-    margin: 0 0 30px 0 !important;
-  }
-  .place3 {
-    margin: 0 0 30px 0 !important;
-  }
-  .place4 {
-    margin: 0 0 30px 0 !important;
-  }
-  .place5 {
-    margin: 0 0 30px 0 !important;
-  }
-}
+$bigHeaders: 56px;
+$padding: 0 15px 0 15px;
 
 * {
   box-sizing: border-box;
@@ -129,6 +13,23 @@ table {
   text-align: center;
 }
 
+.sticky {
+  position: fixed !important;
+  top: 0;
+  background-color: #1a2857;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  -ms-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+}
+
+//.hamburger:hover {
+//  .mobileMenu {
+//    display: flex !important;
+//  }
+//}
+
 //==============================
 
 //==============================
@@ -136,8 +37,12 @@ table {
 body {
   .container {
     width: 100%;
+    overflow-x: hidden;
+    position: relative;
     margin: 0 auto;
     .top {
+      padding: 36px 0 36px 0;
+      min-width: 100%;
       height: 850px;
       background: no-repeat center url("../images/backgroundTop.png");
       //min-width: 1200px;
@@ -146,21 +51,23 @@ body {
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        max-width: 1497px;
-        padding: 0 15px 0 15px;
+        align-self: center;
+        max-width: 1996px;
         position: absolute;
+        z-index: 2;
         left: 0;
         right: 0;
-        margin-left: auto;
-        margin-right: auto;
-        top: 36px;
-        height: 42px;
+        //padding: 36px auto;
+        height: 50px;
+
         .logo {
+          margin-left: 15px;
           width: 166px;
           height: 33px;
           background: no-repeat url("../images/logo.png");
         }
         .menu {
+          margin-right: 15px;
           display: flex;
           align-items: center;
           list-style-type: none;
@@ -182,6 +89,30 @@ body {
             text-align: center;
           }
         }
+        .hamburger {
+          display: none;
+          background: url("../images/hamburger.png");
+          background-size: cover;
+          width: 42px;
+          height: 42px;
+          margin-right: 15px;
+        }
+        .mobileMenu {
+          display: none;
+          position: absolute;
+          top: 50px;
+          width: 100%;
+          background: white;
+          flex-direction: column;
+          box-shadow: 0 0 30px 0 rgba(52, 52, 52, 0.15);
+          li {
+            text-align: center;
+            padding: 15px 0 15px 0;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: "Raleway";
+          }
+        }
       }
       .topContent {
         display: flex;
@@ -190,9 +121,10 @@ body {
         text-align: center;
         color: white;
         div {
+          padding: $padding;
           h1 {
             white-space: pre-wrap;
-            font-size: 56.742px;
+            font-size: $bigHeaders;
             font-family: "Raleway";
             font-weight: bold;
             margin-bottom: 30px;
@@ -229,7 +161,7 @@ body {
               font-weight: bold;
               color: white;
               img {
-                margin-right: 13px;
+                margin-right: 6px;
               }
             }
           }
@@ -242,7 +174,51 @@ body {
       }
     }
     .numbers {
-
+      .numbersContent {
+        padding: $padding;
+        div {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-around;
+          border-radius: 5px;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 0 30px 0 rgba(52, 52, 52, 0.15);
+          position: relative;
+          z-index: 1;
+          top: -70px;
+          width: 100%;
+          //height: 140px;
+          .info {
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: static;
+            width: 130px;
+            height: 140px;
+            p:first-child {
+              margin-bottom: 12px;
+              font-size: 30px;
+              font-family: "Open Sans", sans-serif;
+              color: rgb(52, 52, 52);
+              font-weight: bold;
+            }
+            p:last-child {
+              font-size: 18px;
+              font-family: "Open Sans", sans-serif;
+              color: rgb(113, 113, 113);
+            }
+          }
+          .vLine {
+            position: static;
+            background-color: rgb(113, 113, 113);
+            opacity: 0.302;
+            width: 1px;
+            height: 80px;
+          }
+        }
+      }
     }
     .topDestinations {
       //height: 1321px;
@@ -250,27 +226,70 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        h1 {
-          margin-top: 100px;
+        > p {
+          padding: $padding;
+          margin-top: 40px;
           margin-bottom: 34px;
           font-size: 30px;
           font-family: "Raleway";
           color: rgb(52, 52, 53);
         }
-        h2 {
+        > h2 {
           font-size: 16px;
           font-family: "Raleway";
           color: rgb(113, 113, 113);
           margin-bottom: 87px;
+          padding: $padding;
         }
         .places {
+          padding: 0 15px 0 15px;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
           margin: 0 15px 0 15px;
           width: 100%;
+          .place {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+              text-align: left;
+              margin: 30px 0 30px 27px;
+            }
+            div:first-child {
+              line-height: 42px;
+              font-size: 16px;
+              font-family: "Open Sans";
+              color: rgb(255, 255, 255);
+              font-weight: bold;
+              text-align: center;
+              border-radius: 5px;
+              background-color: rgb(231, 67, 78);
+              width: 82px;
+              height: 42px;
+              img {
+                margin-right: 6px;
+              }
+            }
+            div:last-child {
+              p:first-child {
+                font-size: 30px;
+                font-family: "Raleway";
+                color: rgb(255, 255, 255);
+                letter-spacing: 1px;
+                margin-bottom: 8px;
+              }
+              p:last-child {
+                opacity: 0.85;
+                font-size: 18px;
+                font-family: "Raleway";
+                color: rgb(255, 255, 255);
+                letter-spacing: 1px;
+              }
+            }
+          }
           .place1 {
-            background: center url("../images/place1.png");
+            background: no-repeat center url("../images/place1.png");
             width: 768px;
             height: 361px;
             margin: 0 30px 30px 0;
@@ -334,8 +353,9 @@ body {
           align-items: center;
           p {
             //margin-top: 188px;
+            padding: $padding;
             margin-bottom: 30px;
-            font-size: 56.742px;
+            font-size: $bigHeaders;
             font-family: "Raleway";
             color: rgb(249, 250, 254);
             font-weight: bold;
@@ -344,6 +364,7 @@ body {
             letter-spacing: 4px;
           }
           h2 {
+            padding: $padding;
             margin-bottom: 89px;
             font-size: 30px;
             font-family: "Raleway";
@@ -374,6 +395,7 @@ body {
         flex-direction: column;
         align-items: center;
         h1 {
+          padding: $padding;
           margin-top: 100px;
           margin-bottom: 34px;
           font-size: 30px;
@@ -381,17 +403,60 @@ body {
           color: rgb(52, 52, 53);
         }
         h2 {
+          padding: $padding;
           font-size: 16px;
           font-family: "Raleway";
           color: rgb(113, 113, 113);
           margin-bottom: 87px;
         }
         .boats {
+          padding: 0 15px 0 15px;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
           margin: 0 15px 0 15px;
           width: 100%;
+          .boat {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+              text-align: left;
+              margin: 30px 0 30px 27px;
+            }
+            div:first-child {
+              font-size: 16px;
+              font-family: "Open Sans";
+              color: rgb(255, 255, 255);
+              font-weight: bold;
+              line-height: 42px;
+              border-radius: 5px;
+              background-color: rgb(231, 67, 78);
+              width: 105px;
+              height: 42px;
+              text-align: center;
+            }
+            div:last-child {
+
+              p {
+                letter-spacing: 1px;
+                margin-bottom: 9px;
+                font-size: 30px;
+                font-family: "Raleway";
+                color: rgb(255, 255, 255);
+              }
+              div {
+                letter-spacing: 1px;
+                margin: 0;
+                font-size: 16px;
+                font-family: "Open Sans";
+                color: rgb(255, 255, 255);
+                span {
+                  opacity: 0.85;
+                }
+              }
+            }
+          }
           .boat1 {
             background: center url("../images/boat1.png");
             width: 573px;
@@ -447,8 +512,9 @@ body {
         padding: 0 15px 74px 15px;
         div {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: space-between;
+          flex-wrap: wrap;
           div {
             display: flex;
             justify-content: flex-start;

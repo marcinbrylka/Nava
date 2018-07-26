@@ -1,0 +1,140 @@
+@media (max-width: 1500px) and (min-width: 1210px) {
+  .header {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 632px) {
+  .boat1 {
+    margin: 0 15px 24px 15px !important;
+  }
+  .boat2 {
+    margin: 0 15px 24px 15px !important;
+  }
+  .boat3 {
+    margin: 0 15px 24px 15px !important;
+  }
+  .boat4 {
+    margin: 0 15px 24px 15px !important;
+  }
+}
+
+@media (max-width: 632px) {
+  .boat1 {
+    margin: 0 0 24px 0 !important;
+  }
+  .boat2 {
+    margin: 0 0 24px 0 !important;
+  }
+  .boat3 {
+    margin: 0 0 24px 0 !important;
+  }
+  .boat4 {
+    margin: 0 0 24px 0 !important;
+  }
+}
+
+@media (max-width: 1210px) and (min-width: 800px) {
+  $bigHeaders: 40px;
+  .header {
+    width: 100% !important;
+  }
+  .content {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1196px) and (min-width: 800px) {
+  .content {
+    width: 100% !important;
+  }
+  .place1 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place2 {
+    margin: 0 30px 30px 0 !important;
+  }
+  .place3 {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    width: 100% !important;
+  }
+  .content {
+    width: 100% !important;
+  }
+  .place1 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place2 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place3 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place4 {
+    margin: 0 0 30px 0 !important;
+  }
+  .place5 {
+    margin: 0 0 30px 0 !important;
+  }
+
+  .footerTopLocation, .footerFeaturedBoats {
+    width: 50% !important;
+  }
+  .footerSubscribe {
+    padding-top: 15px;
+    border-top: 1px solid #919191;
+    border-bottom: 1px solid #919191;
+    width: 100% !important;
+    justify-content: center !important;
+    padding-bottom: 15px;
+  }
+  .footerContent > div {
+    justify-content: center !important;
+  }
+  .footerTopLocation {
+    justify-content: flex-end !important;
+    padding: 0 15px 15px 0;
+  }
+  .footerFeaturedBoats {
+    padding-left: 15px;
+  }
+  .footerContact {
+    padding-top: 15px;
+  }
+
+  .menu {
+    display: none !important;
+  }
+  .hamburger {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1210px) and (min-width: 800px) {
+  $bigHeaders: 40px;
+  .header {
+    width: 100% !important;
+  }
+  .content {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1, .ownBoat p {
+    font-size: 40px !important;
+  }
+  .info {
+    p:first-child {
+      font-size: 25px !important;
+    }
+    p:last-child {
+      font-size: 15px !important;
+    }
+  }
+}
